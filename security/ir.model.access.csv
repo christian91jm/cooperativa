@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_cooperativa_socios_model,cooperativa.socios_model,model_cooperativa_socios_model,base.group_user,1,1,1,1
+access_cooperativa_productos_model,cooperativa.productos_model,model_cooperativa_productos_model,base.group_user,1,1,1,1
+access_cooperativa_campanya_model,cooperativa.campanya_model,model_cooperativa_campanya_model,base.group_user,1,1,1,1

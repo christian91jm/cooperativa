@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!-- Top menu item -->
+
+        <menuitem name="Cooperativa" id="cooperativa.menu_root" />
+
+        <!-- menu categories -->
+
+        <menuitem name="Gestion" id="cooperativa.menu_gestion" parent="cooperativa.menu_root" />
+
+        <!-- actions -->
+        
+        <menuitem name="Socios" id="cooperativa.menu_socios_list" parent="cooperativa.menu_gestion" action="cooperativa.action_window_socios" />
+        <menuitem name="Productos" id="cooperativa.menu_productos_list" parent="cooperativa.menu_gestion" action="cooperativa.action_window_productos" />
+        
+
+    </data>
+</odoo>
